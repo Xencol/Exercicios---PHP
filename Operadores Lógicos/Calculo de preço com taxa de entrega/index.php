@@ -11,7 +11,7 @@
 
 $valorProduto = 1950;
 
-$valorFinal = ( $valorProduto - ($valorProduto * 0.20)) + ( $valorProduto * 0.15);
+$valorFinal = ( $valorProduto + ($valorProduto * 0.15)) - (( $valorProduto * 0.15) * 0.20);
 
 
 if ($valorProduto >= 1000){
