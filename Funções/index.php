@@ -30,7 +30,7 @@ function precoFinal($v , $p){
 
 echo "<br><br>";
 
-$precoFinal = precoFinal(1500 , 0.15);
+$precoFinal = precoFinal(1500 , 225 );
 
 echo "O valor final da compra é de R$ " . number_format($precoFinal, 2, ',' , '.');
 
